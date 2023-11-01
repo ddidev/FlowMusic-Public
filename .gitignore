@@ -1,0 +1,10 @@
+node_modules/
+dist/
+trace/
+
+package-lock.json
+
+.*
+!.git*
+!.eslint*
+!.env.example

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "inlineSourceMap": true,
+    "newLine": "LF"
+  },
+  "include": [
+    "src",
+    "@types/**/*",
+    "tsup.config.ts"
+  ],
+  "ts-node": {
+    "files": true
+  },
+  "files": [
+    "@types/index.d.ts"
+  ]
+}

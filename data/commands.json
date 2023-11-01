@@ -1,0 +1,312 @@
+{
+  "local": [
+    {
+      "options": [
+        {
+          "autocomplete": true,
+          "type": 3,
+          "name": "command_name",
+          "description": "The name of the command you want information about",
+          "required": false
+        }
+      ],
+      "name": "help",
+      "description": "Shows available commands and info about specific commands."
+    },
+    {
+      "options": [],
+      "name": "info",
+      "description": "Get information about the bot."
+    },
+    {
+      "options": [],
+      "name": "invite",
+      "description": "Invite the bot to your server."
+    },
+    {
+      "options": [],
+      "name": "ping",
+      "description": "Display the bot's ping."
+    },
+    {
+      "options": [
+        {
+          "type": 3,
+          "name": "suggestion",
+          "description": "The suggestion you want to make.",
+          "required": true
+        }
+      ],
+      "name": "suggest",
+      "description": "Suggest a feature for the bot."
+    },
+    {
+      "options": [],
+      "name": "support",
+      "description": "Join the support server."
+    },
+    {
+      "options": [],
+      "name": "upvote",
+      "description": "Upvote the bot!"
+    },
+    {
+      "options": [],
+      "name": "favourites",
+      "description": "View your favourite songs."
+    },
+    {
+      "options": [
+        {
+          "name": "queue",
+          "description": "Loop the queue.",
+          "required": false,
+          "type": 5
+        }
+      ],
+      "name": "loop",
+      "description": "Loop the current song or queue."
+    },
+    {
+      "options": [],
+      "name": "lyrics",
+      "description": "Get the lyrics of the current song."
+    },
+    {
+      "options": [],
+      "name": "nowplaying",
+      "description": "View the current song."
+    },
+    {
+      "options": [],
+      "name": "pause",
+      "description": "Pause the current song."
+    },
+    {
+      "options": [
+        {
+          "autocomplete": true,
+          "type": 3,
+          "name": "query",
+          "description": "The song you want to search for!",
+          "required": true
+        }
+      ],
+      "name": "play",
+      "description": "Play a song."
+    },
+    {
+      "options": [],
+      "name": "queue",
+      "description": "View the current queue."
+    },
+    {
+      "options": [
+        {
+          "type": 3,
+          "name": "position",
+          "description": "How far to seek (in seconds)",
+          "required": true
+        }
+      ],
+      "name": "seek",
+      "description": "Seek to a specific time in the current song."
+    },
+    {
+      "options": [],
+      "name": "shuffle",
+      "description": "Shuffle the queue."
+    },
+    {
+      "options": [
+        {
+          "type": 10,
+          "name": "amount",
+          "description": "The amount of songs to skip.",
+          "required": false
+        }
+      ],
+      "name": "skip",
+      "description": "Skip the current song."
+    },
+    {
+      "options": [],
+      "name": "stop",
+      "description": "Stop the music player."
+    },
+    {
+      "options": [],
+      "name": "unpause",
+      "description": "Unpause the current song."
+    },
+    {
+      "options": [
+        {
+          "max_value": 100,
+          "min_value": 1,
+          "type": 4,
+          "name": "volume",
+          "description": "The volume to set the music player to.",
+          "required": false
+        }
+      ],
+      "name": "volume",
+      "description": "Change the volume of the music player."
+    }
+  ],
+  "registered": [
+    {
+      "options": [
+        {
+          "autocomplete": true,
+          "type": 3,
+          "name": "command_name",
+          "description": "The name of the command you want information about",
+          "required": false
+        }
+      ],
+      "name": "help",
+      "description": "Shows available commands and info about specific commands."
+    },
+    {
+      "options": [],
+      "name": "info",
+      "description": "Get information about the bot."
+    },
+    {
+      "options": [],
+      "name": "invite",
+      "description": "Invite the bot to your server."
+    },
+    {
+      "options": [],
+      "name": "ping",
+      "description": "Display the bot's ping."
+    },
+    {
+      "options": [
+        {
+          "type": 3,
+          "name": "suggestion",
+          "description": "The suggestion you want to make.",
+          "required": true
+        }
+      ],
+      "name": "suggest",
+      "description": "Suggest a feature for the bot."
+    },
+    {
+      "options": [],
+      "name": "support",
+      "description": "Join the support server."
+    },
+    {
+      "options": [],
+      "name": "upvote",
+      "description": "Upvote the bot!"
+    },
+    {
+      "options": [],
+      "name": "favourites",
+      "description": "View your favourite songs."
+    },
+    {
+      "options": [
+        {
+          "name": "queue",
+          "description": "Loop the queue.",
+          "required": false,
+          "type": 5
+        }
+      ],
+      "name": "loop",
+      "description": "Loop the current song or queue."
+    },
+    {
+      "options": [],
+      "name": "lyrics",
+      "description": "Get the lyrics of the current song."
+    },
+    {
+      "options": [],
+      "name": "nowplaying",
+      "description": "View the current song."
+    },
+    {
+      "options": [],
+      "name": "pause",
+      "description": "Pause the current song."
+    },
+    {
+      "options": [
+        {
+          "autocomplete": true,
+          "type": 3,
+          "name": "query",
+          "description": "The song you want to search for!",
+          "required": true
+        }
+      ],
+      "name": "play",
+      "description": "Play a song."
+    },
+    {
+      "options": [],
+      "name": "queue",
+      "description": "View the current queue."
+    },
+    {
+      "options": [
+        {
+          "type": 3,
+          "name": "position",
+          "description": "How far to seek (in seconds)",
+          "required": true
+        }
+      ],
+      "name": "seek",
+      "description": "Seek to a specific time in the current song."
+    },
+    {
+      "options": [],
+      "name": "shuffle",
+      "description": "Shuffle the queue."
+    },
+    {
+      "options": [
+        {
+          "type": 10,
+          "name": "amount",
+          "description": "The amount of songs to skip.",
+          "required": false
+        }
+      ],
+      "name": "skip",
+      "description": "Skip the current song."
+    },
+    {
+      "options": [],
+      "name": "stop",
+      "description": "Stop the music player."
+    },
+    {
+      "options": [],
+      "name": "unpause",
+      "description": "Unpause the current song."
+    },
+    {
+      "options": [
+        {
+          "max_value": 100,
+          "min_value": 1,
+          "type": 4,
+          "name": "volume",
+          "description": "The volume to set the music player to.",
+          "required": false
+        }
+      ],
+      "name": "volume",
+      "description": "Change the volume of the music player."
+    }
+  ]
+}
