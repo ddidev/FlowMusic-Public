@@ -10,3 +10,8 @@ Feel free to use, but please give credits.
 
 # Setup
 Flow Music is configured for the `yarn` package manager.
+
+To run in development, using development env vars and token, run `yarn dev`
+For production, use `yarn prod`
+
+The above commands will install packages automatically
